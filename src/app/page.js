@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
     <div className='flex justify-center items-center '>
-      <img src="bg.jpg" alt="" className='h-[950px] object-cover  lg:object-fill lg:h-[50rem]'/>
+      <img src="bg.jpg" alt="" className='h-[100vh] object-cover  lg:object-fill lg:h-[100vh] lg:w-[100vw]'/>
         <div className='text-white absolute lg:h-[40rem] lg:w-[80rem] w-[20rem] h-[40rem]  flex justify-center items-center lg:flex-row flex-col-reverse'>
           <motion.div className=' lg:w-[40rem] w-[20rem] h-[40rem] flex flex-col lg:text-start text-center'
           initial={{
@@ -35,7 +35,7 @@ const Page = () => {
             cursorStyle='|'
           /></span>
             </div>
-            <motion.div className='h-[0.7rem] lg:w-[40rem] w-[20rem] bg-purple-200 hidden lg:block mt-6 mb-6'
+            <motion.div className='h-[0.3rem] lg:w-[40rem] w-[20rem] bg-purple-200 hidden lg:block mt-6 mb-6 shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]'
             initial={{
               
               width:0,
@@ -47,7 +47,7 @@ const Page = () => {
 
             </motion.div>
 
-            <motion.div className='h-[0.7rem] lg:w-[20rem] w-[20rem] bg-purple-200 lg:hidden block mt-6 mb-6'
+            <motion.div className='h-[0.7rem] lg:w-[20rem] w-[20rem] bg-purple-200 lg:hidden block mt-6 mb-6 '
             initial={{
               
               width:0,
