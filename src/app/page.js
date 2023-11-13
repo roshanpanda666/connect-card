@@ -114,7 +114,7 @@ const Page = () => {
             <img
               src="new.jpg"
               alt=""
-              className="scale-75 shadow-[1px_4px_20px_10px_#68d391]"
+              className="scale-75 shadow-[1px_4px_20px_10px_#68d391] rounded-full"
             />
           </motion.div>
         </div>
