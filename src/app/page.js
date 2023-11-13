@@ -57,7 +57,7 @@ const Page = () => {
             ></motion.div>
 
             <motion.div
-              className="h-[0.3rem] lg:w-[20rem] w-[20rem] bg-cyan-100 lg:hidden block mt-6 mb-6 "
+              className="h-[0.3rem] lg:w-[20rem] w-[20rem] bg-green-300 lg:hidden block mt-6 mb-6 "
               initial={{
                 width: 0,
               }}
