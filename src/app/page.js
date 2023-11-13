@@ -65,7 +65,7 @@ const Page = () => {
                 width: 320,
               }}
             ></motion.div>
-            <div className="text-cyan-300 font-semibold text-[2rem]">
+            <div className="text-white font-semibold text-[2rem]">
               connect with me 
             </div>
 
