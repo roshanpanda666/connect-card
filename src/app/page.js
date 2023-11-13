@@ -35,7 +35,7 @@ const Page = () => {
               <span className="text-white font-extrabold">
                 <Typewriter
                   words={[
-                    " Developer ",
+                    " Developer",
                     " Designer",
                     " Learner",
                     " Tech Enthusiast",
