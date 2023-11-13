@@ -8,7 +8,7 @@ const Page = () => {
     <>
       <div className="flex justify-center items-center ">
         <img
-          src="background.jpg"
+          src="green.jpg"
           alt=""
           className="h-[100vh] object-cover  lg:object-fill lg:h-[100vh] lg:w-[100vw]"
         />
@@ -25,12 +25,12 @@ const Page = () => {
             <div className="lg:text-[5rem] text-[3rem] text-white font-extrabold lg:mt-28">
               I AM
             </div>
-            <div className="lg:text-[5rem] text-[3rem] text-cyan-300 font-extrabold">
+            <div className="lg:text-[5rem] text-[3rem] text-green-300 font-extrabold">
               {/* impliment react teffex */}
               <Glitch text={"SABYASACHI"} />
             </div>
 
-            <div className="text-cyan-300 font-semibold lg:text-[4rem] text-[3rem]">
+            <div className="text-green-300 font-semibold lg:text-[4rem] text-[3rem]">
               a
               <span className="text-white font-extrabold">
                 <Typewriter
@@ -47,7 +47,7 @@ const Page = () => {
               </span>
             </div>
             <motion.div
-              className="h-[0.3rem] lg:w-[40rem] w-[20rem] bg-cyan-300 hidden lg:block mt-6 mb-6 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
+              className="h-[0.3rem] lg:w-[40rem] w-[20rem] bg-green-300 hidden lg:block mt-6 mb-6 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
               initial={{
                 width: 0,
               }}
