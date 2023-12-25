@@ -32,7 +32,7 @@ const Page = () => {
 
             <div className="text-green-300 font-semibold lg:text-[4rem] text-[3rem]">
               
-              <span className="text-white font-extrabold lg:text-6xl text-4xl">
+              <span className="text-white font-extrabold lg:text-6xl text-3xl">
                 <Typewriter
                   words={[
                     " Developer",
